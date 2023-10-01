@@ -6,6 +6,7 @@ This project is a RESTful API built with Spring Boot, featuring user authenticat
 
 - Java JDK (version used during development: 17)
 - Any preferred IDE with Spring Boot support or simply cmd
+- PostgreSQL
 - Postman or your preferred API platform
 
 ## Setup & Running the Application
@@ -14,6 +15,13 @@ This project is a RESTful API built with Spring Boot, featuring user authenticat
    ```
    git clone https://github.com/GeorgeAlep/AuthenticationAPI
    cd AuthenticationAPI
+   ```
+2. **Change the credentials**:
+   ```
+   - Navigate to the following directory within the AuthenticationAPI folder: "AuthenticationAPI\IntelliJ Project\src\main\resources"
+   - Open up the application.properties file with an editor of your choice
+   - Change the url to the database you want to use e.g. spring.datasource.url=jdbc:postgresql://localhost:5432/(your database)
+   - Change the username and password to your respective name and password
    ```
 2. **Running the Application**:
    - The application can be run using the generated JAR file.
