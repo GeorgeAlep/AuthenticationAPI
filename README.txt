@@ -6,6 +6,7 @@ This project is a RESTful API built with Spring Boot, featuring user authenticat
 
 - Java JDK (version used during development: 17)
 - Any preferred IDE with Spring Boot support or simply cmd
+- Postman or your preferred API platform
 
 ## Setup & Running the Application
 
